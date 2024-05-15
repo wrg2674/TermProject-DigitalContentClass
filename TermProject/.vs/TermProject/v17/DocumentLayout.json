@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\UnityProject\\GitHub\\TermProject-DigitalContentClass\\TermProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6D81CDCE-C9D5-6F13-C0CD-064F4C65292E}|Assembly-CSharp.csproj|d:\\unityproject\\github\\termproject-digitalcontentclass\\termproject\\assets\\scripts\\buttonfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D81CDCE-C9D5-6F13-C0CD-064F4C65292E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\buttonfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D81CDCE-C9D5-6F13-C0CD-064F4C65292E}|Assembly-CSharp.csproj|D:\\UnityProject\\GitHub\\TermProject-DigitalContentClass\\TermProject\\assets\\scripts\\slime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D81CDCE-C9D5-6F13-C0CD-064F4C65292E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\slime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ButtonFunction.cs",
+              "DocumentMoniker": "D:\\UnityProject\\GitHub\\TermProject-DigitalContentClass\\TermProject\\Assets\\Scripts\\ButtonFunction.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ButtonFunction.cs",
+              "ToolTip": "D:\\UnityProject\\GitHub\\TermProject-DigitalContentClass\\TermProject\\Assets\\Scripts\\ButtonFunction.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ButtonFunction.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAAcAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T07:42:48.724Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Slime.cs",
+              "DocumentMoniker": "D:\\UnityProject\\GitHub\\TermProject-DigitalContentClass\\TermProject\\Assets\\Scripts\\Slime.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Slime.cs",
+              "ToolTip": "D:\\UnityProject\\GitHub\\TermProject-DigitalContentClass\\TermProject\\Assets\\Scripts\\Slime.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Slime.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAADMAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T06:43:57.869Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
