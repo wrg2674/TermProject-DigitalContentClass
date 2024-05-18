@@ -4,14 +4,18 @@ using UnityEngine;
 
 public class Slime : MonoBehaviour
 {
-    private float cleanPoint = 1.0f;
-    private int affectionPoint = 0;
-    private float satietyPoint = 0.25f;
+    private float cleanPoint = 1.0f; // 청결도
+    private int affectionPoint = 0; // 호감도
+    private float satietyPoint = 0.25f; // 포만도
     private float scalePoint = 1.0f;
     private float hungryTimer = 0f;
     private float dirtyTimer = 0f;
     public Material cleanMaterial;
     public Material dirtyMaterial;
+    public Gauge cleanGauge;
+    public Gauge satietyGauge;
+    public Gauge maxCleanGauge;
+    public Gauge maxSatietyGauge;
     // Start is called before the first frame update
     public void updateColor()
     {
@@ -53,6 +57,10 @@ public class Slime : MonoBehaviour
         size = satiety * 2 + 0.5f;
         updateColor();
         updateScale();
+        cleanGauge.SettingLine(clean);
+        satietyGauge.SettingLine(satiety);
+        maxCleanGauge.SettingLine(1.0f);
+        maxSatietyGauge.SettingLine(1.0f);
     }
     public float clean
     {
