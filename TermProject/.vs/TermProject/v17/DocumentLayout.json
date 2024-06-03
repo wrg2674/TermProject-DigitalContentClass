@@ -3,16 +3,28 @@
   "WorkspaceRootPath": "D:\\UnityProject\\GitHub\\TermProject-DigitalContentClass\\TermProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6D81CDCE-C9D5-6F13-C0CD-064F4C65292E}|Assembly-CSharp.csproj|d:\\unityproject\\github\\termproject-digitalcontentclass\\termproject\\assets\\scripts\\gauge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D81CDCE-C9D5-6F13-C0CD-064F4C65292E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gauge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6D81CDCE-C9D5-6F13-C0CD-064F4C65292E}|Assembly-CSharp.csproj|d:\\unityproject\\github\\termproject-digitalcontentclass\\termproject\\assets\\scripts\\buttonfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D81CDCE-C9D5-6F13-C0CD-064F4C65292E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\buttonfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6D81CDCE-C9D5-6F13-C0CD-064F4C65292E}|Assembly-CSharp.csproj|d:\\unityproject\\github\\termproject-digitalcontentclass\\termproject\\assets\\scripts\\slime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6D81CDCE-C9D5-6F13-C0CD-064F4C65292E}|Assembly-CSharp.csproj|D:\\UnityProject\\GitHub\\TermProject-DigitalContentClass\\TermProject\\assets\\scripts\\microphoneclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D81CDCE-C9D5-6F13-C0CD-064F4C65292E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\microphoneclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D81CDCE-C9D5-6F13-C0CD-064F4C65292E}|Assembly-CSharp.csproj|D:\\UnityProject\\GitHub\\TermProject-DigitalContentClass\\TermProject\\assets\\scripts\\slime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6D81CDCE-C9D5-6F13-C0CD-064F4C65292E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\slime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6D81CDCE-C9D5-6F13-C0CD-064F4C65292E}|Assembly-CSharp.csproj|D:\\UnityProject\\GitHub\\TermProject-DigitalContentClass\\TermProject\\assets\\scripts\\buttonfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D81CDCE-C9D5-6F13-C0CD-064F4C65292E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\buttonfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6D81CDCE-C9D5-6F13-C0CD-064F4C65292E}|Assembly-CSharp.csproj|d:\\unityproject\\github\\termproject-digitalcontentclass\\termproject\\assets\\scripts\\timerdestroy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D81CDCE-C9D5-6F13-C0CD-064F4C65292E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\timerdestroy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D81CDCE-C9D5-6F13-C0CD-064F4C65292E}|Assembly-CSharp.csproj|D:\\UnityProject\\GitHub\\TermProject-DigitalContentClass\\TermProject\\assets\\scripts\\gauge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D81CDCE-C9D5-6F13-C0CD-064F4C65292E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gauge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D81CDCE-C9D5-6F13-C0CD-064F4C65292E}|Assembly-CSharp.csproj|D:\\UnityProject\\GitHub\\TermProject-DigitalContentClass\\TermProject\\assets\\scripts\\chatbot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D81CDCE-C9D5-6F13-C0CD-064F4C65292E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\chatbot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,11 +34,49 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
+              "Title": "TimerDestroy.cs",
+              "DocumentMoniker": "D:\\UnityProject\\GitHub\\TermProject-DigitalContentClass\\TermProject\\Assets\\Scripts\\TimerDestroy.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\TimerDestroy.cs",
+              "ToolTip": "D:\\UnityProject\\GitHub\\TermProject-DigitalContentClass\\TermProject\\Assets\\Scripts\\TimerDestroy.cs",
+              "RelativeToolTip": "Assets\\Scripts\\TimerDestroy.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwYAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T06:19:25.649Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MicrophoneClass.cs",
+              "DocumentMoniker": "D:\\UnityProject\\GitHub\\TermProject-DigitalContentClass\\TermProject\\Assets\\Scripts\\MicrophoneClass.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MicrophoneClass.cs",
+              "ToolTip": "D:\\UnityProject\\GitHub\\TermProject-DigitalContentClass\\TermProject\\Assets\\Scripts\\MicrophoneClass.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MicrophoneClass.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAABQAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T06:11:15.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ChatBot.cs",
+              "DocumentMoniker": "D:\\UnityProject\\GitHub\\TermProject-DigitalContentClass\\TermProject\\Assets\\Scripts\\ChatBot.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ChatBot.cs",
+              "ToolTip": "D:\\UnityProject\\GitHub\\TermProject-DigitalContentClass\\TermProject\\Assets\\Scripts\\ChatBot.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ChatBot.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAABIAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T02:34:15.187Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Gauge.cs",
               "DocumentMoniker": "D:\\UnityProject\\GitHub\\TermProject-DigitalContentClass\\TermProject\\Assets\\Scripts\\Gauge.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Gauge.cs",
@@ -34,31 +84,30 @@
               "RelativeToolTip": "Assets\\Scripts\\Gauge.cs",
               "ViewState": "AQIAAAoAAAAAAAAAAAAUwB8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-18T13:48:43.224Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-18T13:48:43.224Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "ButtonFunction.cs",
               "DocumentMoniker": "D:\\UnityProject\\GitHub\\TermProject-DigitalContentClass\\TermProject\\Assets\\Scripts\\ButtonFunction.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ButtonFunction.cs",
               "ToolTip": "D:\\UnityProject\\GitHub\\TermProject-DigitalContentClass\\TermProject\\Assets\\Scripts\\ButtonFunction.cs",
               "RelativeToolTip": "Assets\\Scripts\\ButtonFunction.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAdAAAA",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAADEAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-15T07:42:48.724Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Slime.cs",
               "DocumentMoniker": "D:\\UnityProject\\GitHub\\TermProject-DigitalContentClass\\TermProject\\Assets\\Scripts\\Slime.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Slime.cs",
               "ToolTip": "D:\\UnityProject\\GitHub\\TermProject-DigitalContentClass\\TermProject\\Assets\\Scripts\\Slime.cs",
               "RelativeToolTip": "Assets\\Scripts\\Slime.cs",
-              "ViewState": "AQIAAHEAAAAAAAAAAAAUwIYAAAAAAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAB0AAABSAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-15T06:43:57.869Z",
               "EditorCaption": ""

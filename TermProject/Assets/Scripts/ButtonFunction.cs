@@ -7,6 +7,12 @@ public class ButtonFunction : MonoBehaviour
 {
     public Slime slime;
     public Button btnShower;
+    public Button btnTalk;
+    public Button btnStopTalk;
+    public MicrophoneClass microphone;
+    public Transform pos;
+    public ParticleSystem showerEffect;
+    
     private void Update()
     {
         if(slime.clean < 0.5f)
@@ -18,10 +24,34 @@ public class ButtonFunction : MonoBehaviour
             btnShower.interactable = false;
         }
     }
+    public void Talk()
+    {
+        btnTalk.gameObject.SetActive(false);
+        btnStopTalk.gameObject.SetActive(true);
+        if (microphone.checkMicrophoneDevice())
+        {
+            microphone.microphoneStart();
+        }
+        slime.satiety -= 0.2f;
+        slime.affection += 1;
+
+    }
+    public void StopTalk()
+    {
+        btnTalk.gameObject.SetActive(true);
+        btnStopTalk.gameObject.SetActive(false);
+        if (microphone.checkMicrophoneDevice())
+        {
+            microphone.microphoneStop();
+        }
+    }
     public void Shower()
     {
         slime.clean = 1.0f;
         slime.affection += 1;
+        slime.satiety -= 0.3f;
+        GameObject obj = Instantiate(showerEffect).gameObject;
+        obj.transform.position = pos.position;
     }
     
     public void Eat()

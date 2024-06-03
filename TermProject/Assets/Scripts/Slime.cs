@@ -27,7 +27,7 @@ public class Slime : MonoBehaviour
     }
     public void updateScale()
     {
-        this.transform.localScale = new Vector3(size, size, size);
+        this.transform.localScale = new Vector3(size*0.75f, size*0.75f, size*0.75f);
     }
     private void timerFunction(ref float time, ref float key, float value, double period)
     {
