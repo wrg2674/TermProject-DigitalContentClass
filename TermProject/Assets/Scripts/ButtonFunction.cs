@@ -59,19 +59,18 @@ public class ButtonFunction : MonoBehaviour
     }
     public void Shower()
     {
-        slime.clean = 1.0f;
-        slime.affection += 1;
-        slime.satiety -= 0.3f;
+        
         GameObject obj = Instantiate(showerEffect).gameObject;
+        obj.GetComponent<ShowerScript>().SetSlime(slime);
         obj.transform.position = pos.position;
     }
     
     public void Eat()
     {
-        slime.clean -= 0.02f;
-        slime.satiety += 0.1f;
-        slime.affection += 1;
-        GameObject obj = Instantiate(showerEffect).gameObject;
+        
+        GameObject obj = Instantiate(feedEffect).gameObject;
+        Debug.Log(slime);
+        obj.GetComponent<FeedScript>().SetSlime(slime);
         obj.transform.position = pos.position;
     }
 }

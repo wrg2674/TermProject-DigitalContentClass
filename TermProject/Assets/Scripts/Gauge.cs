@@ -15,11 +15,6 @@ public class Gauge : MonoBehaviour
         lineRenderer.positionCount = 2;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
     public void SettingLine(float weight)
     {
         Vector3 startPoint = startPos.transform.position;

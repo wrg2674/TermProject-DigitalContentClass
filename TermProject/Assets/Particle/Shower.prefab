@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 5497360983769053418}
   - component: {fileID: 6436806468435770411}
   - component: {fileID: 557281380754359875}
-  - component: {fileID: 2589590750581701301}
+  - component: {fileID: 7868743945596170960}
   m_Layer: 0
   m_Name: Shower
   m_TagString: Untagged
@@ -4831,7 +4831,7 @@ ParticleSystemRenderer:
   m_MeshWeighting2: 1
   m_MeshWeighting3: 1
   m_MaskInteraction: 0
---- !u!114 &2589590750581701301
+--- !u!114 &7868743945596170960
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4840,7 +4840,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 1287740554777434168}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d9f6c209d9787cc4fb6c82b92346ba72, type: 3}
+  m_Script: {fileID: 11500000, guid: f4154cd19d3add643b41f09041c14efb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  slime: {fileID: 0}
   lifeTime: 5

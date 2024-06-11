@@ -51,6 +51,7 @@ public class ChatBot : MonoBehaviour
         Debug.Log(response);
         slimeMessage.text = response;
         Invoke("ClearText", 5.0f);
+        messages.Clear();
     }
     void ClearText()
     {

@@ -46,10 +46,7 @@ public class Slime : MonoBehaviour
             key = 0.0f;
         }
     }
-    private void Start()
-    {
-        
-    }
+
     private void Update()
     {
         timerFunction(ref hungryTimer, ref satietyPoint, 0.05f, 20.0);
