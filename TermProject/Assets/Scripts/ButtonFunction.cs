@@ -8,10 +8,13 @@ public class ButtonFunction : MonoBehaviour
     public Slime slime;
     public Button btnShower;
     public Button btnTalk;
+    public Button btnFeed;
     public Button btnStopTalk;
+    public Text txtAffection;
     public MicrophoneClass microphone;
     public Transform pos;
     public ParticleSystem showerEffect;
+    public GameObject feedEffect;
     
     private void Update()
     {
@@ -23,6 +26,15 @@ public class ButtonFunction : MonoBehaviour
         {
             btnShower.interactable = false;
         }
+        if (slime.satiety < 1.0f)
+        {
+            btnFeed.interactable = true;
+        }
+        else
+        {
+            btnFeed.interactable = false;
+        }
+        txtAffection.text = slime.affection.ToString();
     }
     public void Talk()
     {
@@ -59,5 +71,7 @@ public class ButtonFunction : MonoBehaviour
         slime.clean -= 0.02f;
         slime.satiety += 0.1f;
         slime.affection += 1;
+        GameObject obj = Instantiate(showerEffect).gameObject;
+        obj.transform.position = pos.position;
     }
 }

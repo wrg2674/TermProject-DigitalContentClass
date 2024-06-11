@@ -2,9 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using OpenAI;
+using UnityEngine.UI;
 
 public class ChatBot : MonoBehaviour
 {
+    public Text slimeMessage;
     protected OpenAIApi openAI;
     protected string apiKey;
     protected List<ChatMessage> messages = new List<ChatMessage>();
@@ -47,6 +49,12 @@ public class ChatBot : MonoBehaviour
         });
         string response = completionResponse.Choices[0].Message.Content;
         Debug.Log(response);
+        slimeMessage.text = response;
+        Invoke("ClearText", 5.0f);
+    }
+    void ClearText()
+    {
+        slimeMessage.text = "";
     }
 
 }

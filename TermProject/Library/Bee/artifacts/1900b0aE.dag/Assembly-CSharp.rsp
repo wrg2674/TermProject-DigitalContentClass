@@ -363,6 +363,7 @@
 "Assets/Samples/OpenAI Unity/0.2.0/Whisper/Whisper.cs"
 "Assets/Scripts/ButtonFunction.cs"
 "Assets/Scripts/ChatBot.cs"
+"Assets/Scripts/ClearText.cs"
 "Assets/Scripts/Gauge.cs"
 "Assets/Scripts/MicrophoneClass.cs"
 "Assets/Scripts/Slime.cs"
