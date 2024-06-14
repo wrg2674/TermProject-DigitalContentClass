@@ -11,10 +11,15 @@ public class ButtonFunction : MonoBehaviour
     public Button btnFeed;
     public Button btnStopTalk;
     public Text txtAffection;
+    public Button btnEnableFalse;
+    public Button btnEnableTrue;
     public MicrophoneClass microphone;
     public Transform pos;
     public ParticleSystem showerEffect;
     public GameObject feedEffect;
+    public GameObject enableInvisibleUI;
+    public GameObject enableInvisibleGauge;
+    
     
     private void Update()
     {
@@ -72,5 +77,19 @@ public class ButtonFunction : MonoBehaviour
         Debug.Log(slime);
         obj.GetComponent<FeedScript>().SetSlime(slime);
         obj.transform.position = pos.position;
+    }
+    public void Invisible()
+    {
+        enableInvisibleUI.SetActive(false); 
+        enableInvisibleGauge.SetActive(false);
+        btnEnableFalse.gameObject.SetActive(false);
+        btnEnableTrue.gameObject.SetActive(true);
+    }
+    public void Visible()
+    {
+        enableInvisibleUI.SetActive(true);
+        enableInvisibleGauge.SetActive(true);
+        btnEnableFalse.gameObject.SetActive(true);
+        btnEnableTrue.gameObject.SetActive(false);
     }
 }

@@ -3,7 +3,11 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - TreeStep1
+  - TreeStep2
+  - TreeStep3
+  - TreeStep4
   layers:
   - Default
   - TransparentFX
