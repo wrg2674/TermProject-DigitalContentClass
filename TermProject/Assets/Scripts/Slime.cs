@@ -10,12 +10,18 @@ public class Slime : MonoBehaviour
     private float scalePoint = 1.0f;
     private float hungryTimer = 0f;
     private float dirtyTimer = 0f;
+    private int level = 0;
+    private int equipIdx = 0;
+    private float sizeWeight = 0.75f;
+    
     public Material cleanMaterial;
     public Material dirtyMaterial;
     public Gauge cleanGauge;
     public Gauge satietyGauge;
     public Gauge maxCleanGauge;
     public Gauge maxSatietyGauge;
+    public List<GameObject> rewardsEnv;
+    public List<GameObject> equipments;
     // Start is called before the first frame update
     public void updateColor()
     {
@@ -27,7 +33,10 @@ public class Slime : MonoBehaviour
     }
     public void updateScale()
     {
-        this.transform.localScale = new Vector3(size*0.75f, size*0.75f, size*0.75f);
+        this.transform.localScale = new Vector3(size* sizeWeight, size* sizeWeight, size* sizeWeight);
+        /*for (int i = 0; i < equipments.Count; i++) {
+            equipments[i].GetComponent<Equipment>().updateScale(size* sizeWeight);
+        }*/
     }
     private void timerFunction(ref float time, ref float key, float value, double period)
     {
@@ -46,6 +55,7 @@ public class Slime : MonoBehaviour
             key = 0.0f;
         }
     }
+
 
     private void Update()
     {
@@ -88,6 +98,7 @@ public class Slime : MonoBehaviour
         set
         {
             affectionPoint = value;
+            step = affectionPoint / 1;
         }
     }
     public float satiety
@@ -127,5 +138,37 @@ public class Slime : MonoBehaviour
             }
             scalePoint = value;
         }
+    }
+    public int step
+    {
+        get
+        {
+            return level;
+        }
+        set
+        {
+            level = value;
+            if(equipIdx >= equipments.Count)
+            {
+                return;
+            }
+            if(level <= rewardsEnv.Count)
+            {
+                LevelUpEnv();
+            }
+            else
+            {
+                equipments[equipIdx].GetComponent<Equipment>().LevelUp(size* sizeWeight);
+                if(equipments[equipIdx].GetComponent<Equipment>().isEnd == true)
+                {
+                    equipIdx++;
+                }
+            }
+
+        }
+    }
+    public void LevelUpEnv()
+    {
+        rewardsEnv[level-1].SetActive(true);
     }
 }

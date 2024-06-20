@@ -8,6 +8,7 @@ TagManager:
   - TreeStep2
   - TreeStep3
   - TreeStep4
+  - ShouldDelete
   layers:
   - Default
   - TransparentFX

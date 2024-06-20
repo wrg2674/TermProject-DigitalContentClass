@@ -15,7 +15,7 @@ D:/UnityProject/GitHub/TermProject-DigitalContentClass/TermProject
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53786
+52329
 Successfully changed project path to: D:/UnityProject/GitHub/TermProject-DigitalContentClass/TermProject
 D:/UnityProject/GitHub/TermProject-DigitalContentClass/TermProject
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ D:/UnityProject/GitHub/TermProject-DigitalContentClass/TermProject
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [20240] Host "[IP] 192.168.145.1 [Port] 0 [Flags] 2 [Guid] 1193525298 [EditorId] 1193525298 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-9VO6HV5) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [8128] Host "[IP] 192.168.145.1 [Port] 0 [Flags] 2 [Guid] 3154834979 [EditorId] 3154834979 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-9VO6HV5) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [20240] Host "[IP] 192.168.145.1 [Port] 0 [Flags] 2 [Guid] 1193525298 [EditorId] 1193525298 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-9VO6HV5) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [8128] Host "[IP] 192.168.145.1 [Port] 0 [Flags] 2 [Guid] 3154834979 [EditorId] 3154834979 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-9VO6HV5) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 19 workers.
-Refreshing native plugins compatible for Editor in 1659.17 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 5.02 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.20f1 (61c2feb0970d)
 [Subsystems] Discovering subsystems at path D:/Unity/Editor/Data/Resources/UnitySubsystems
@@ -70,45 +70,45 @@ Initialize mono
 Mono path[0] = 'D:/Unity/Editor/Data/Managed'
 Mono path[1] = 'D:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/Unity/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56996
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56040
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Unity/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: D:/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002722 seconds.
-- Loaded All Assemblies, in  5.669 seconds
+Registered in 0.003045 seconds.
+- Loaded All Assemblies, in  0.199 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.191 seconds
-Domain Reload Profiling: 5860ms
-	BeginReloadAssembly (4455ms)
+- Finished resetting the current domain, in  0.187 seconds
+Domain Reload Profiling: 386ms
+	BeginReloadAssembly (62ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (0ms)
-	RebuildCommonClasses (389ms)
-	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (34ms)
-	LoadAllAssembliesAndSetupDomain (784ms)
-		LoadAssemblies (4455ms)
+	RebuildCommonClasses (18ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (82ms)
+		LoadAssemblies (62ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (783ms)
-			TypeCache.Refresh (782ms)
-				TypeCache.ScanAssembly (535ms)
+		AnalyzeDomain (81ms)
+			TypeCache.Refresh (80ms)
+				TypeCache.ScanAssembly (71ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (192ms)
+	FinalizeReload (187ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (158ms)
+		SetupLoadedEditorAssemblies (150ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (51ms)
-			SetLoadedEditorAssemblies (2ms)
+			InitializePlatformSupportModulesInManaged (48ms)
+			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (1ms)
-			ProcessInitializeOnLoadAttributes (69ms)
+			ProcessInitializeOnLoadAttributes (65ms)
 			ProcessInitializeOnLoadMethodAttributes (33ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
@@ -118,8 +118,8 @@ Domain Reload Profiling: 5860ms
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.570 seconds
-Refreshing native plugins compatible for Editor in 1.60 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.365 seconds
+Refreshing native plugins compatible for Editor in 1.90 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Package Manager log level set to [2]
@@ -127,47 +127,47 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.360 seconds
-Domain Reload Profiling: 1930ms
+- Finished resetting the current domain, in  0.329 seconds
+Domain Reload Profiling: 694ms
 	BeginReloadAssembly (87ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (12ms)
+		CreateAndSetChildDomain (11ms)
 	RebuildCommonClasses (19ms)
 	RebuildNativeTypeToScriptingClass (6ms)
 	initialDomainReloadingComplete (22ms)
-	LoadAllAssembliesAndSetupDomain (1437ms)
-		LoadAssemblies (1250ms)
+	LoadAllAssembliesAndSetupDomain (231ms)
+		LoadAssemblies (170ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (241ms)
-			TypeCache.Refresh (228ms)
-				TypeCache.ScanAssembly (177ms)
-			ScanForSourceGeneratedMonoScriptInfo (9ms)
+		AnalyzeDomain (110ms)
+			TypeCache.Refresh (99ms)
+				TypeCache.ScanAssembly (87ms)
+			ScanForSourceGeneratedMonoScriptInfo (8ms)
 			ResolveRequiredComponents (2ms)
-	FinalizeReload (361ms)
+	FinalizeReload (329ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (269ms)
+		SetupLoadedEditorAssemblies (237ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (16ms)
+			InitializePlatformSupportModulesInManaged (13ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (38ms)
-			ProcessInitializeOnLoadAttributes (197ms)
-			ProcessInitializeOnLoadMethodAttributes (13ms)
-			AfterProcessingInitializeOnLoad (2ms)
+			BeforeProcessingInitializeOnLoad (33ms)
+			ProcessInitializeOnLoadAttributes (175ms)
+			ProcessInitializeOnLoadMethodAttributes (12ms)
+			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (5ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 2.27 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 2.68 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3170 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 34 unused Assets / (58.2 KB). Loaded Objects now: 3636.
-Memory consumption went from 136.3 MB to 136.2 MB.
-Total: 1.678800 ms (FindLiveObjects: 0.144700 ms CreateObjectMapping: 0.038100 ms MarkObjects: 1.424300 ms  DeleteObjects: 0.071000 ms)
+Unloading 34 unused Assets / (58.7 KB). Loaded Objects now: 3649.
+Memory consumption went from 138.5 MB to 138.5 MB.
+Total: 1.697600 ms (FindLiveObjects: 0.138700 ms CreateObjectMapping: 0.037200 ms MarkObjects: 1.447000 ms  DeleteObjects: 0.074000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -182,60 +182,66 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 90232b88b0c3dc41ee1e03f4e0b4a334 -> bebe7c7872a4adffc4ed7b246c779052
-  custom:scripting/monoscript/fileName/Level.cs:  -> 127368431bd3e039ddf270081a78af50
+========================================================================
+Received Import Request.
+  Time since last request: 203926.967699 seconds.
+  path: Assets/Prefabs/Effect1.prefab
+  artifactKey: Guid(3a04c6ee43c949645807bdd17435764e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Effect1.prefab using Guid(3a04c6ee43c949645807bdd17435764e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5884fe0c99e197862c5d0fe94eb9311') in 0.089396 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.239 seconds
-Refreshing native plugins compatible for Editor in 1.45 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.252 seconds
+Refreshing native plugins compatible for Editor in 1.91 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.436 seconds
-Domain Reload Profiling: 675ms
-	BeginReloadAssembly (91ms)
+- Finished resetting the current domain, in  0.463 seconds
+Domain Reload Profiling: 715ms
+	BeginReloadAssembly (92ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (3ms)
+		DisableScriptedObjects (2ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (18ms)
-	RebuildCommonClasses (18ms)
+		CreateAndSetChildDomain (19ms)
+	RebuildCommonClasses (19ms)
 	RebuildNativeTypeToScriptingClass (6ms)
-	initialDomainReloadingComplete (14ms)
-	LoadAllAssembliesAndSetupDomain (111ms)
-		LoadAssemblies (151ms)
+	initialDomainReloadingComplete (15ms)
+	LoadAllAssembliesAndSetupDomain (120ms)
+		LoadAssemblies (162ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
 		AnalyzeDomain (8ms)
 			TypeCache.Refresh (4ms)
 				TypeCache.ScanAssembly (0ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (3ms)
-	FinalizeReload (437ms)
+	FinalizeReload (463ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (204ms)
+		SetupLoadedEditorAssemblies (209ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (12ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (30ms)
-			ProcessInitializeOnLoadAttributes (146ms)
-			ProcessInitializeOnLoadMethodAttributes (12ms)
-			AfterProcessingInitializeOnLoad (1ms)
+			BeforeProcessingInitializeOnLoad (32ms)
+			ProcessInitializeOnLoadAttributes (148ms)
+			ProcessInitializeOnLoadMethodAttributes (13ms)
+			AfterProcessingInitializeOnLoad (2ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (5ms)
-Refreshing native plugins compatible for Editor in 2.59 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 3.09 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3145 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 25 unused Assets / (32.1 KB). Loaded Objects now: 3639.
-Memory consumption went from 132.3 MB to 132.2 MB.
-Total: 2.233300 ms (FindLiveObjects: 0.191900 ms CreateObjectMapping: 0.057100 ms MarkObjects: 1.941300 ms  DeleteObjects: 0.042200 ms)
+Unloading 3144 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (32.2 KB). Loaded Objects now: 3659.
+Memory consumption went from 134.4 MB to 134.4 MB.
+Total: 2.422000 ms (FindLiveObjects: 0.268300 ms CreateObjectMapping: 0.079500 ms MarkObjects: 2.027100 ms  DeleteObjects: 0.046000 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -251,222 +257,6 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 114471.692989 seconds.
-  path: Assets/Scripts/Level.cs
-  artifactKey: Guid(cf662b3cbe9e55e458d322741bcab95f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Level.cs using Guid(cf662b3cbe9e55e458d322741bcab95f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fddabfd6b4313d9d6c8b92dc635363d8') in 0.003207 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 3.103279 seconds.
-  path: Assets/Particle/Shower.prefab
-  artifactKey: Guid(fd2edfb729072c547ab8cddd51e6e4f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Particle/Shower.prefab using Guid(fd2edfb729072c547ab8cddd51e6e4f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e62b57a573ab5ea74abe3f704fbc90a2') in 0.050324 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 45.751473 seconds.
-  path: Assets/Particle Ribbon by Moonflower Carnivore/Prefabs/Charge_02.1.prefab
-  artifactKey: Guid(ebf9cc577b34f514c8ec790bec0af3e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Particle Ribbon by Moonflower Carnivore/Prefabs/Charge_02.1.prefab using Guid(ebf9cc577b34f514c8ec790bec0af3e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '280dffcc51c354dbb63546be287395f1') in 0.034521 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 47
-========================================================================
-Received Import Request.
-  Time since last request: 0.030377 seconds.
-  path: Assets/Particle Ribbon by Moonflower Carnivore/Prefabs/Charge_02.2.prefab
-  artifactKey: Guid(073f2d7207c2a664f921850c7e8783db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Particle Ribbon by Moonflower Carnivore/Prefabs/Charge_02.2.prefab using Guid(073f2d7207c2a664f921850c7e8783db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25fe1934723c6783826ecf4546e35ca8') in 0.055237 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 24
-========================================================================
-Received Import Request.
-  Time since last request: 19.122091 seconds.
-  path: Assets/Particle Ribbon by Moonflower Carnivore/Prefabs/Charge_03.prefab
-  artifactKey: Guid(c17963bbb4ed8bb43ab629df2aa6f6fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Particle Ribbon by Moonflower Carnivore/Prefabs/Charge_03.prefab using Guid(c17963bbb4ed8bb43ab629df2aa6f6fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '707bdb68a85b566823a6f92c3c380a02') in 0.013804 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 17
-========================================================================
-Received Import Request.
-  Time since last request: 0.134738 seconds.
-  path: Assets/Particle Ribbon by Moonflower Carnivore/Prefabs/Charge_03.1 Rave Party.prefab
-  artifactKey: Guid(a038b6842bf8b8c48978a6ca7ff191ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Particle Ribbon by Moonflower Carnivore/Prefabs/Charge_03.1 Rave Party.prefab using Guid(a038b6842bf8b8c48978a6ca7ff191ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a0c6bf0b9063a7787d6dbccf60b3855') in 0.011542 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 17
-========================================================================
-Received Import Request.
-  Time since last request: 0.005520 seconds.
-  path: Assets/Particle Ribbon by Moonflower Carnivore/Prefabs/Drag_01 Warp-strike Noise.prefab
-  artifactKey: Guid(22cfde83280f83746836923e3e5ac64a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Particle Ribbon by Moonflower Carnivore/Prefabs/Drag_01 Warp-strike Noise.prefab using Guid(22cfde83280f83746836923e3e5ac64a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d3c7263f8f46746b0029f36c7cab1f2') in 0.009430 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 17
-========================================================================
-Received Import Request.
-  Time since last request: 0.005812 seconds.
-  path: Assets/Particle Ribbon by Moonflower Carnivore/Prefabs/Liberate_01.prefab
-  artifactKey: Guid(5c175b754ee603c47a5fbe48aff5d65b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Particle Ribbon by Moonflower Carnivore/Prefabs/Liberate_01.prefab using Guid(5c175b754ee603c47a5fbe48aff5d65b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77d9476dfa4da8327bc1fc26cdf0dcf2') in 0.016120 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 16
-========================================================================
-Received Import Request.
-  Time since last request: 15.203506 seconds.
-  path: Assets/Particle Ribbon by Moonflower Carnivore/Prefabs/Liberate_01.1 Dual Ribbon.prefab
-  artifactKey: Guid(9b76ca16778282d43b0dcb458f08802b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Particle Ribbon by Moonflower Carnivore/Prefabs/Liberate_01.1 Dual Ribbon.prefab using Guid(9b76ca16778282d43b0dcb458f08802b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60e684e6aa0a448ed78980f751b17ab7') in 0.010558 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 20
-========================================================================
-Received Import Request.
-  Time since last request: 0.002073 seconds.
-  path: Assets/Particle Ribbon by Moonflower Carnivore/Prefabs/Liberate_01.1.1 Dual Ribbon.prefab
-  artifactKey: Guid(ed27e61ea1a83e64fb6c3472640c846f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Particle Ribbon by Moonflower Carnivore/Prefabs/Liberate_01.1.1 Dual Ribbon.prefab using Guid(ed27e61ea1a83e64fb6c3472640c846f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc3d9e97b8dd3b1470862fa2c4d408dd') in 0.008658 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 20
-========================================================================
-Received Import Request.
-  Time since last request: 0.000250 seconds.
-  path: Assets/Particle Ribbon by Moonflower Carnivore/Prefabs/Liberate_02 Butterfly.prefab
-  artifactKey: Guid(24714939b6d6b0848a23dbabb24615c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Particle Ribbon by Moonflower Carnivore/Prefabs/Liberate_02 Butterfly.prefab using Guid(24714939b6d6b0848a23dbabb24615c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33e948ec0cf4725965c6c97df99bab1b') in 0.012993 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 16
-========================================================================
-Received Import Request.
-  Time since last request: 0.348035 seconds.
-  path: Assets/Particle Ribbon by Moonflower Carnivore/Prefabs/Liberate_02.1.prefab
-  artifactKey: Guid(9b7dd4ad1de43e843ab5041fd9ced9f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Particle Ribbon by Moonflower Carnivore/Prefabs/Liberate_02.1.prefab using Guid(9b7dd4ad1de43e843ab5041fd9ced9f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14cb56c59931df6ef1bdc1eb4a264578') in 0.008809 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 16
-========================================================================
-Received Import Request.
-  Time since last request: 0.005929 seconds.
-  path: Assets/Particle Ribbon by Moonflower Carnivore/Prefabs/Liberate_02.1.1 Smoke.prefab
-  artifactKey: Guid(046853cc0b2b7a7429cfdec1915e1640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Particle Ribbon by Moonflower Carnivore/Prefabs/Liberate_02.1.1 Smoke.prefab using Guid(046853cc0b2b7a7429cfdec1915e1640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d77bda5d578e4923a75808dfefb90f5') in 0.037082 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 22
-========================================================================
-Received Import Request.
-  Time since last request: 27.153622 seconds.
-  path: Assets/Particle Ribbon by Moonflower Carnivore/Prefabs/Liberate_02.1.2 Smoke Noise.prefab
-  artifactKey: Guid(222eb84c209dc0c4b833bfce66d69d54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Particle Ribbon by Moonflower Carnivore/Prefabs/Liberate_02.1.2 Smoke Noise.prefab using Guid(222eb84c209dc0c4b833bfce66d69d54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b1c0c75222e607b6121868a9f2e9f86') in 0.010368 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 22
-========================================================================
-Received Import Request.
-  Time since last request: 0.004671 seconds.
-  path: Assets/Particle Ribbon by Moonflower Carnivore/Prefabs/Liberate_02.1.3 Smoke Noise trail.prefab
-  artifactKey: Guid(9c325b962bbbf044b8c70186b0d753f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Particle Ribbon by Moonflower Carnivore/Prefabs/Liberate_02.1.3 Smoke Noise trail.prefab using Guid(9c325b962bbbf044b8c70186b0d753f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '018f02c68f559fc64e6f426065bda630') in 0.025046 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 18
-========================================================================
-Received Import Request.
-  Time since last request: 0.034665 seconds.
-  path: Assets/Particle Ribbon by Moonflower Carnivore/Prefabs/Liberate_02.2 Seaweed.prefab
-  artifactKey: Guid(a0c033842badc44499cd942553067136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Particle Ribbon by Moonflower Carnivore/Prefabs/Liberate_02.2 Seaweed.prefab using Guid(a0c033842badc44499cd942553067136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e32eccd2e7be78ac8ca4c9117baba0b1') in 0.049661 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 19
-========================================================================
-Received Import Request.
-  Time since last request: 498.203500 seconds.
-  path: Assets/Numena/Plants/Lemon
-  artifactKey: Guid(0c1ffd2f88967864fbbe59276f7b0803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Numena/Plants/Lemon using Guid(0c1ffd2f88967864fbbe59276f7b0803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '538663ff0f96c7c05e472023cbc7f3d9') in 0.000656 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.073927 seconds.
-  path: Assets/Numena/Plants/Lemon/Lemon Tree 1.prefab
-  artifactKey: Guid(3c98bb4bee2f2ba4b92a2fbca7b8831f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Numena/Plants/Lemon/Lemon Tree 1.prefab using Guid(3c98bb4bee2f2ba4b92a2fbca7b8831f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99aad3857939ffcc669a40caf5ea41ec') in 0.144642 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Numena/Plants/Lemon/Lemon Tree 3.prefab
-  artifactKey: Guid(9b77d12e48b7f364a82333485eca4473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Numena/Plants/Lemon/Lemon Tree 3.prefab using Guid(9b77d12e48b7f364a82333485eca4473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41774d1adf3500156d20682c21315af0') in 0.012401 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
-========================================================================
-Received Import Request.
-  Time since last request: 10.838893 seconds.
-  path: Assets/Particle Ribbon by Moonflower Carnivore/Materials/chain_alpha.mat
-  artifactKey: Guid(965e340e24024ed47860e559297d8fea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Particle Ribbon by Moonflower Carnivore/Materials/chain_alpha.mat using Guid(965e340e24024ed47860e559297d8fea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f41caa474921c3082921fb40b524e888') in 0.058458 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.005859 seconds.
-  path: Assets/Particle Ribbon by Moonflower Carnivore/Materials/glow_add_color.mat
-  artifactKey: Guid(8b6a5bfa65bbb9a4587a2e8c283cf977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Particle Ribbon by Moonflower Carnivore/Materials/glow_add_color.mat using Guid(8b6a5bfa65bbb9a4587a2e8c283cf977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f9c6bf3a3eb409a4d8af5cb496ec223') in 0.009057 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Particle Ribbon by Moonflower Carnivore/Materials/glow_dot_add.mat
-  artifactKey: Guid(25bd086592405bc4b85fb8280fe53759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Particle Ribbon by Moonflower Carnivore/Materials/glow_dot_add.mat using Guid(25bd086592405bc4b85fb8280fe53759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16f786e7954667d951fbb98240e2b472') in 0.012969 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.001697 seconds.
-  path: Assets/Particle Ribbon by Moonflower Carnivore/Materials/glow_volumetric_alpha.mat
-  artifactKey: Guid(dea41af3d4536ac4080332ae1e0d6fd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Particle Ribbon by Moonflower Carnivore/Materials/glow_volumetric_alpha.mat using Guid(dea41af3d4536ac4080332ae1e0d6fd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '596d78c7ddb80c17abf9bd4591d50d54') in 0.009171 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.011203 seconds.
-  path: Assets/Particle Ribbon by Moonflower Carnivore/Materials/ribbon_blue_trail_alpha.mat
-  artifactKey: Guid(841d467819e15104f909254f5adeef35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Particle Ribbon by Moonflower Carnivore/Materials/ribbon_blue_trail_alpha.mat using Guid(841d467819e15104f909254f5adeef35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fd85794101fd4cf16754ca92122a424') in 0.023235 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Particle Ribbon by Moonflower Carnivore/Materials/glow_volumetric_trail_alpha.mat
-  artifactKey: Guid(4ff01e089cbaea84ab21e308fef2929d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Particle Ribbon by Moonflower Carnivore/Materials/glow_volumetric_trail_alpha.mat using Guid(4ff01e089cbaea84ab21e308fef2929d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec086f461a43618285a8bd2e30d92535') in 0.010839 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Particle Ribbon by Moonflower Carnivore/Materials/ribbon_rainbow_alpha.mat
-  artifactKey: Guid(8d9f4bcc0b0050d4e86527561752f6df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Particle Ribbon by Moonflower Carnivore/Materials/ribbon_rainbow_alpha.mat using Guid(8d9f4bcc0b0050d4e86527561752f6df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a9fc0512b51764c8f2c3d1366d486ff') in 0.010319 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Particle Ribbon by Moonflower Carnivore/Materials/ribbon_blue_alpha.mat
-  artifactKey: Guid(d8a69ab1cf98f1e4ea48919b3cc074a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Particle Ribbon by Moonflower Carnivore/Materials/ribbon_blue_alpha.mat using Guid(d8a69ab1cf98f1e4ea48919b3cc074a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '429e35c697a728dacf1a6fe4026fc015') in 0.010747 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: 스레드 종료 또는 응용 프로그램 요청 때문에 I/O 작업이 취소되었습니다.
 AssetImportWorker is now disconnected from the server

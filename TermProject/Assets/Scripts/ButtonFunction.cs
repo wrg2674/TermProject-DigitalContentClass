@@ -29,7 +29,7 @@ public class ButtonFunction : MonoBehaviour
         }
         else
         {
-            btnShower.interactable = false;
+            //btnShower.interactable = false;
         }
         if (slime.satiety < 1.0f)
         {
@@ -37,7 +37,7 @@ public class ButtonFunction : MonoBehaviour
         }
         else
         {
-            btnFeed.interactable = false;
+            //btnFeed.interactable = false;
         }
         txtAffection.text = slime.affection.ToString();
     }
@@ -72,9 +72,7 @@ public class ButtonFunction : MonoBehaviour
     
     public void Eat()
     {
-        
         GameObject obj = Instantiate(feedEffect).gameObject;
-        Debug.Log(slime);
         obj.GetComponent<FeedScript>().SetSlime(slime);
         obj.transform.position = pos.position;
     }
