@@ -34,9 +34,6 @@ public class Slime : MonoBehaviour
     public void updateScale()
     {
         this.transform.localScale = new Vector3(size* sizeWeight, size* sizeWeight, size* sizeWeight);
-        /*for (int i = 0; i < equipments.Count; i++) {
-            equipments[i].GetComponent<Equipment>().updateScale(size* sizeWeight);
-        }*/
     }
     private void timerFunction(ref float time, ref float key, float value, double period)
     {
@@ -56,7 +53,13 @@ public class Slime : MonoBehaviour
         }
     }
 
-
+    private void Start()
+    {
+        cleanGauge.SettingLine(clean);
+        satietyGauge.SettingLine(satiety);
+        maxCleanGauge.SettingLine(1.0f);
+        maxSatietyGauge.SettingLine(1.0f);
+    }
     private void Update()
     {
         timerFunction(ref hungryTimer, ref satietyPoint, 0.05f, 20.0);
@@ -64,10 +67,9 @@ public class Slime : MonoBehaviour
         size = satiety * 2 + 0.5f;
         updateColor();
         updateScale();
-        cleanGauge.SettingLine(clean);
+        cleanGauge.SettingLine(cleanPoint);
         satietyGauge.SettingLine(satiety);
-        maxCleanGauge.SettingLine(1.0f);
-        maxSatietyGauge.SettingLine(1.0f);
+
     }
     public float clean
     {
@@ -77,15 +79,16 @@ public class Slime : MonoBehaviour
         }
         set
         {
-            if (value > 1.0f)
-            {
-                value = 1.0f;
-            }
-            if (value < 0.0f)
-            {
-                value = 0.0f;
-            }
             cleanPoint = value;
+            if (cleanPoint > 1.0f)
+            {
+                cleanPoint = 1.0f;
+            }
+            if (cleanPoint < 0.0f)
+            {
+                cleanPoint = 0.0f;
+            }
+            
         }
     }
 
@@ -109,15 +112,17 @@ public class Slime : MonoBehaviour
         }
         set
         {
-            if (value > 1.0f)
-            {
-                value = 1.0f;
-            }
-            if (value < 0.0f)
-            {
-                value = 0.0f;
-            }
             satietyPoint = value;
+            if (satietyPoint > 1.0f)
+            {
+                satietyPoint = 1.0f;
+            }
+            if (satietyPoint < 0.0f)
+            {
+                satietyPoint = 0.0f;
+            }
+            
+            Debug.Log("Æ÷¸¸°¨ : " + satiety);
         }
     }
     public float size
@@ -128,15 +133,16 @@ public class Slime : MonoBehaviour
         }
         set
         {
-            if (value > 3.0f)
-            {
-                value = 3.0f;
-            }
-            if (value < 0.5f)
-            {
-                value = 0.5f;
-            }
             scalePoint = value;
+            if (scalePoint > 3.0f)
+            {
+                scalePoint = 3.0f;
+            }
+            if (scalePoint < 0.5f)
+            {
+                scalePoint = 0.5f;
+            }
+            
         }
     }
     public int step
@@ -169,6 +175,6 @@ public class Slime : MonoBehaviour
     }
     public void LevelUpEnv()
     {
-        rewardsEnv[level-1].SetActive(true);
+        rewardsEnv[level - 1].SetActive(true);
     }
 }
